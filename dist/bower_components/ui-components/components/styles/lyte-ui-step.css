@@ -1,0 +1,178 @@
+lyte-step-structure{
+	line-height: 1;
+    display: inline-block;
+    margin: 0 0;
+    vertical-align: middle;
+}
+lyte-step-structure lyte-step-item {
+	float: left;
+	margin-right: 10px;
+	padding : 0;
+	font-size: 14px;
+	position: relative;
+}
+lyte-step-structure.lyteDividerSlash lyte-step-item:not(.lyteLastElement), lyte-step-structure.lyteDividerArrow lyte-step-item:not(.lyteLastElement){
+	margin-right: 20px;
+}
+lyte-step-structure lyte-step-item.lyteActive{
+	color: #2C7BD0;
+}
+lyte-step-structure.lyteDividerSlash lyte-step-item:not(:last-of-type):after{
+	content: '/';
+	position: absolute;
+	right: -12px;
+	top:0;
+	color: #666;
+	opacity: 0.5;
+}
+lyte-step-structure.lyteDividerSlash .lyteWarning{
+	color: #ffb130;
+}
+lyte-step-structure.lyteDividerSlash .lyteCompleted{
+	color: #72c880;
+}
+lyte-step-structure.lyteDividerArrow lyte-step-item:not(:last-of-type):after{
+	content: '';
+	background: url(../images/lyte_ui_sprite.svg) no-repeat -191px -29px;
+	position: absolute;
+	right: -12px;
+	top:3px;
+	color: #666;
+	width: 4px;
+	height: 7px;
+	opacity: 0.5;
+}
+/*Stage css*/
+lyte-step-structure.lyteStageOne, lyte-step-structure.lyteStageTwo{
+	position: relative;
+	white-space: nowrap;
+}
+lyte-step-structure.lyteStageOne:before{
+	content: "";
+    display: block;
+    position: absolute;
+    top: 48%;
+    bottom: 38px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 1px;
+    background: #e3e3e3;
+}
+lyte-step-structure.lyteStageOne .lyteCompleted lyte-step-head{
+	background: #72c880 !important;
+	color: #fff;
+	border: 1px solid #72c880 !important;
+}
+lyte-step-structure.lyteStageOne lyte-step-item.lyteCompleted:not(:first-of-type):before {
+	content: "";
+	display: block;
+    position: absolute;
+    top: 48%;
+    bottom: 38px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 1px;
+    background: #72c880;
+}
+lyte-step-structure.lyteStageOne lyte-step-item lyte-step-head{
+    border: 1px solid #2d7bd0;
+    border-radius: 50%;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 11px;
+    box-sizing: border-box;
+    padding: 2px 5px;
+}
+lyte-step-structure.lyteStageOne lyte-step-item{
+	margin-right: 0;
+}
+lyte-step-structure.lyteStageOne lyte-step-item lyte-step-body{
+	position: absolute;
+	top: -15px;
+	right: 0;
+	font-size: 12px;
+	color: #666;
+}
+lyte-step-structure.lyteStageOne lyte-step-item:not(:first-of-type) {
+	padding-left: 60px;
+}
+lyte-step-structure.lyteStageOne lyte-step-item.lyteWarning lyte-step-head {
+	border: 1px solid #ffb130;
+	background: #ffb130 !important;
+    color: #fff;
+}
+lyte-step-structure.lyteStageOne lyte-step-item.lyteWarning:not(:first-of-type):before {
+	background: #ffb130;
+	content: "";
+    display: block;
+    position: absolute;
+    top: 48%;
+    bottom: 38px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 1px;
+}
+/*lyte-step-structure.lyteStageTwo {
+	overflow: hidden;
+}*/
+lyte-step-structure.lyteStageTwo lyte-step-item {
+	margin-right: 0px;
+}
+lyte-step-structure.lyteStageTwo lyte-step-item lyte-step-body{
+	display: block;
+	float: left;
+	background: #eaeaea;
+	text-align: center;
+	padding: 10px 20px 10px 30px;
+	position: relative;
+	margin: 0 2px 0 0; 
+	font-size: 14px;
+	text-decoration: none;
+	color: #333;
+}
+lyte-step-structure.lyteStageTwo lyte-step-item lyte-step-body:after {
+	content: "";  
+	border-top: 17px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 17px solid #eaeaea;
+	position: absolute; right: -17px; top: 0;z-index: 1;
+}
+lyte-step-structure.lyteStageTwo lyte-step-item lyte-step-body:before {
+	content: "";  
+	border-top: 17px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 17px solid #fff;
+	position: absolute; left: 0; top: 0;
+}
+/*On progress css*/
+lyte-step-structure.lyteStageTwo .lyteActive lyte-step-body{
+	background: #2d7bd0 !important;
+	color: #fff !important;
+}
+lyte-step-structure.lyteStageTwo .lyteActive lyte-step-body:after{
+	border-left-color: #2d7bd0 !important;
+}
+/*Warning css*/
+lyte-step-structure.lyteStageTwo .lyteWarning lyte-step-body{
+	background: #ffb130 !important;
+	color: #fff !important;
+}
+lyte-step-structure.lyteStageTwo .lyteWarning lyte-step-body:after{
+	border-left-color: #ffb130 !important;
+}
+/*Completed css*/
+lyte-step-structure.lyteStageTwo .lyteCompleted lyte-step-body{
+	background: #72c880 !important;
+	color: #fff !important;
+}
+lyte-step-structure.lyteStageTwo .lyteCompleted lyte-step-body:after{
+	border-left-color: #72c880 !important;
+}
+lyte-step-structure.lyteStageTwo.lyteStageTwoPlain lyte-step-item:first-child lyte-step-body:before{
+	border-left-color: transparent;
+} 

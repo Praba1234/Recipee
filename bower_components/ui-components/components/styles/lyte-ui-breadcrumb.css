@@ -1,0 +1,157 @@
+lyte-breadcrumb-structure{
+	line-height: 1;
+    display: inline-block;
+    margin: 0 0;
+    vertical-align: middle;
+}
+lyte-breadcrumb-structure lyte-breadcrumb-item {
+	float: left;
+	margin-right: 10px;
+	padding : 0;
+	font-size: 14px;
+	position: relative;
+}
+lyte-breadcrumb-structure.lyteDividerSlash lyte-breadcrumb-item:not(:last-of-type), lyte-breadcrumb-structure.lyteDividerArrow lyte-breadcrumb-item:not(:last-of-type){
+	margin-right: 20px;
+}
+lyte-breadcrumb-structure lyte-breadcrumb-item.lyteActive{
+	color: #2C7BD0;
+}
+lyte-breadcrumb-structure.lyteDividerSlash lyte-breadcrumb-item:not(:last-of-type):after{
+	content: '/';
+	position: absolute;
+	right: -12px;
+	top:0;
+	color: #666;
+	opacity: 0.5;
+}
+lyte-breadcrumb-structure.lyteDividerArrow lyte-breadcrumb-item:not(:last-of-type):after{
+	content: '';
+	background: url(../images/lyte_ui_sprite.svg) no-repeat -191px -29px;
+	position: absolute;
+	right: -12px;
+	top:3px;
+	color: #666;
+	width: 4px;
+	height: 7px;
+	opacity: 0.5;
+}
+/*Stage css*/
+lyte-breadcrumb-structure.lyteStageOne, lyte-breadcrumb-structure.lyteStageTwo{
+	position: relative;
+	white-space: nowrap;
+}
+lyte-breadcrumb-structure.lyteStageOne:before{
+	content: "";
+    display: block;
+    position: absolute;
+    top: 48%;
+    bottom: 38px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 1px;
+    background: #e3e3e3;
+}
+lyte-breadcrumb-structure.lyteStageOne .lyteCompleted lyte-breadcrumb-head{
+	background: #2d7bd0 !important;
+	color: #fff;
+}
+lyte-breadcrumb-structure.lyteStageOne lyte-breadcrumb-item.lyteCompleted:not(:first-child):before {
+	content: "";
+	display: block;
+    position: absolute;
+    top: 48%;
+    bottom: 38px;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 1px;
+    background: #2d7bd0;
+}
+lyte-breadcrumb-structure.lyteStageOne lyte-breadcrumb-item lyte-breadcrumb-head{
+    border: 1px solid #2d7bd0;
+    border-radius: 50%;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 11px;
+    box-sizing: border-box;
+    padding: 2px 5px;
+}
+lyte-breadcrumb-structure.lyteStageOne lyte-breadcrumb-item{
+	margin-right: 0;
+}
+lyte-breadcrumb-structure.lyteStageOne lyte-breadcrumb-item lyte-breadcrumb-body{
+	position: absolute;
+	top: -15px;
+	right: 0;
+	font-size: 12px;
+	color: #666;
+}
+lyte-breadcrumb-structure.lyteStageOne lyte-breadcrumb-item:not(:first-child) {
+	padding-left: 60px;
+}
+/*lyte-breadcrumb-structure.lyteStageTwo {
+	overflow: hidden;
+}*/
+lyte-breadcrumb-structure.lyteStageTwo lyte-breadcrumb-item {
+	margin-right: 0px;
+}
+lyte-breadcrumb-structure.lyteStageTwo lyte-breadcrumb-item lyte-breadcrumb-body{
+	display: block;
+	float: left;
+	background: #eaeaea;
+	text-align: center;
+	padding: 10px 20px 10px 30px;
+	position: relative;
+	margin: 0 2px 0 0; 
+	font-size: 14px;
+	text-decoration: none;
+	color: #333;
+}
+lyte-breadcrumb-structure.lyteStageTwo lyte-breadcrumb-item lyte-breadcrumb-body:after {
+	content: "";  
+	border-top: 17px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 17px solid #eaeaea;
+	position: absolute; right: -17px; top: 0;z-index: 1;
+}
+lyte-breadcrumb-structure.lyteStageTwo lyte-breadcrumb-item lyte-breadcrumb-body:before {
+	content: "";  
+	border-top: 17px solid transparent;
+	border-bottom: 17px solid transparent;
+	border-left: 17px solid #fff;
+	position: absolute; left: 0; top: 0;
+}
+/*On progress css*/
+lyte-breadcrumb-structure.lyteStageTwo .lyteActive lyte-breadcrumb-body{
+	background: #2d7bd0 !important;
+	color: #fff !important;
+}
+lyte-breadcrumb-structure.lyteStageTwo .lyteActive lyte-breadcrumb-body:after{
+	border-left-color: #2d7bd0 !important;
+}
+/*Warning css*/
+lyte-breadcrumb-structure.lyteStageTwo .lyteWarning lyte-breadcrumb-body{
+	background: #ffb130 !important;
+	color: #fff !important;
+}
+lyte-breadcrumb-structure.lyteStageTwo .lyteWarning lyte-breadcrumb-body:after{
+	border-left-color: #ffb130 !important;
+}
+/*Completed css*/
+lyte-breadcrumb-structure.lyteStageTwo .lyteCompleted lyte-breadcrumb-body{
+	background: #72c880 !important;
+	color: #fff !important;
+}
+lyte-breadcrumb-structure.lyteStageTwo .lyteCompleted lyte-breadcrumb-body:after{
+	border-left-color: #72c880 !important;
+}
+lyte-breadcrumb-structure.lyteStageTwo.lyteStageTwoPlain lyte-breadcrumb-item:first-child lyte-breadcrumb-body:before{
+	border-left-color: transparent;
+} 
+lyte-breadcrumb{
+	display: inline-block;
+}

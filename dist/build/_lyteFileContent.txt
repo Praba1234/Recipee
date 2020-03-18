@@ -1,0 +1,5 @@
+/*--System generated component concatenation /home/local/ZOHOCORP/praba-zuch797/Lyte-Project/Recipee/dist/components/javascript/ingre-recipee-comp_lyte.js---*/
+function ingre$recipee$comp(){ 
+	var str="<template tag-name=\"ingre-recipee-comp\">\n    <h1>Ingredents Recipes</h1>\n\t";ingrerecipee.forEach(function(item){
+str +="\n\t\t<div class=\"size\">\n\t\t\t<img class='photo' src=\"{{item.strMealThumb}}\" onclick=\"{{action('namedetails',item.strMeal)}}\">\n\t\t\t<span>{{item.strMeal}}</span>\n\t\t</div>\n\t";})
+str +="\n</template>";}

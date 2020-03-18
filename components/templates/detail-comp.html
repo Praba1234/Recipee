@@ -1,0 +1,14 @@
+<template tag-name="detail-comp">
+    <h1>DETAILS</h1>
+    <h2>{{details.strMeal}}</h2>
+	<div id='img_pic'>
+		<img src="{{details.strMealThumb}}">
+	</div>
+	<h2>Description</h2>
+	<p>{{details.strInstructions}}</p>
+	<a href="{{details.strYoutube}}">Click here..</a>
+	<h2>Ingredients</h2>
+	<%ingredients.forEach(function(item){%>
+		<li onclick="{{action('IngreRecipee',item)}}">{{item}}</li>
+	<%})%>
+</template>

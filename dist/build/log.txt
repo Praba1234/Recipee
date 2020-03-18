@@ -1,0 +1,842 @@
+Building components ....
+Building models ..............
+
+[Time] : copyAppDir =>0.004 s
+[Time] => components completed : 0.004 s
+========== Components compiled ==========
+[Time] => 0.003 s
+================= _super call of model completed =======================
+finish the build
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.011 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.43 s
+Callback to templateProcessing function initated
+total time taken 0.081s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+Error error: Parsing error: Unexpected token { at dist/components/javascript/detail-comp_lyte.js:4:37:
+  2 | function detail$comp(){ 
+  3 | 	var str="<template tag-name=\"detail-comp\">\n    <h1>DETAILS</h1>\n    <h1>{{details[0].strMeal}}</h1>\n\t<div id='img_pic'>\n\t\t<img src=\"{{details[0].strMealThumb}}\">\n\t</div>\n\t<h2>Description</h2>\n\t<p>{{details[0].strInstructions}}</p>\n\t<a href=\"{{details[0].strYoutube}}\">Click here..</a>\n\t<h2>Ingredients</h2>\n\t<ul>\n\t\t";details[0].forIn(function(value, key){ 
+> 4 | str +="\n\t\t\t";if(key.startsWith({{strIngredient}})){
+    |                                     ^
+  5 | str +=" \n\t\t\t\t<li onclick=\"{{action('IngreRecipee',value)}}\">{{value}}</li>\n\t\t\t";}
+  6 | str +="\n\t  \t";})
+  7 | str +=" \n\t</ul>\n</template>";}
+
+
+1 error found.
+
+Callback to templateProcessing function initated
+total time taken 8.468s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.435 s
+Callback to templateProcessing function initated
+total time taken 19.462s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.416 s
+Callback to templateProcessing function initated
+total time taken 72.631s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.402 s
+Callback to templateProcessing function initated
+total time taken 78.851s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.402 s
+Callback to templateProcessing function initated
+total time taken 85.408s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.394 s
+Callback to templateProcessing function initated
+total time taken 89.538s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.431 s
+Callback to templateProcessing function initated
+total time taken 120.793s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.43 s
+Callback to templateProcessing function initated
+total time taken 131.162s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+Error error: Parsing error: Unexpected token { at dist/components/javascript/detail-comp_lyte.js:5:25:
+  3 | 	var str="<template tag-name=\"detail-comp\">\n    <h1>DETAILS</h1>\n    <h1>{{details[0].strMeal}}</h1>\n\t<div id='img_pic'>\n\t\t<img src=\"{{details[0].strMealThumb}}\">\n\t</div>\n\t<h2>Description</h2>\n\t<p>{{details[0].strInstructions}}</p>\n\t<a href=\"{{details[0].strYoutube}}\">Click here..</a>\n\t<h2>Ingredients</h2>\n\t<ul>\n\t\t";details[0].forIn(function(value, key){ 
+  4 | str +="\n\t\t\t";
+> 5 | str +="\n\t\t\t";if(key.{{startsWith('strIngredient')}}){
+    |                         ^
+  6 | str +=" \n\t\t\t\t{{log(\"user Name :\" , key)}}\n\t\t\t\t<li onclick=\"{{action('IngreRecipee',value)}}\">{{value}}</li>\n\t\t\t";}
+  7 | str +="\n\t  \t";})
+  8 | str +=" \n\t</ul>\n</template>";}
+
+
+1 error found.
+
+Callback to templateProcessing function initated
+total time taken 174.529s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+Error error: Parsing error: Unexpected token { at dist/components/javascript/detail-comp_lyte.js:5:25:
+  3 | 	var str="<template tag-name=\"detail-comp\">\n    <h1>DETAILS</h1>\n    <h1>{{details[0].strMeal}}</h1>\n\t<div id='img_pic'>\n\t\t<img src=\"{{details[0].strMealThumb}}\">\n\t</div>\n\t<h2>Description</h2>\n\t<p>{{details[0].strInstructions}}</p>\n\t<a href=\"{{details[0].strYoutube}}\">Click here..</a>\n\t<h2>Ingredients</h2>\n\t<ul>\n\t\t";details[0].forIn(function(value, key){ 
+  4 | str +="\n\t\t\t";
+> 5 | str +="\n\t\t\t";if(key.{{startsWith('strIngredient')}}){
+    |                         ^
+  6 | str +=" \n\t\t\t\t{{log(\"user Name :\" , key)}}\n\t\t\t\t<li onclick=\"{{action('IngreRecipee',value)}}\">{{value}}</li>\n\t\t\t";}
+  7 | str +="\n\t  \t";})
+  8 | str +=" \n\t</ul>\n</template>";}
+
+
+1 error found.
+
+Callback to templateProcessing function initated
+total time taken 185.887s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.001 s
+Running compilerule ...
+Error error: Parsing error: Unexpected token { at dist/components/javascript/detail-comp_lyte.js:4:25:
+  2 | function detail$comp(){ 
+  3 | 	var str="<template tag-name=\"detail-comp\">\n    <h1>DETAILS</h1>\n    <h1>{{details[0].strMeal}}</h1>\n\t<div id='img_pic'>\n\t\t<img src=\"{{details[0].strMealThumb}}\">\n\t</div>\n\t<h2>Description</h2>\n\t<p>{{details[0].strInstructions}}</p>\n\t<a href=\"{{details[0].strYoutube}}\">Click here..</a>\n\t<h2>Ingredients</h2>\n\t<ul>\n\t\t";details[0].forIn(function(value, key){ 
+> 4 | str +="\n\t\t\t";if(key.{{startsWith('strIngredient')}}){
+    |                         ^
+  5 | str +=" \n\t\t\t\t{{log(\"user Name :\" , key)}}\n\t\t\t\t<li onclick=\"{{action('IngreRecipee',value)}}\">{{value}}</li>\n\t\t\t";}
+  6 | str +="\n\t  \t";})
+  7 | str +=" \n\t</ul>\n</template>";}
+
+
+1 error found.
+
+Callback to templateProcessing function initated
+total time taken 237.087s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+Error error: Parsing error: Unexpected token { at dist/components/javascript/detail-comp_lyte.js:4:29:
+  2 | function detail$comp(){ 
+  3 | 	var str="<template tag-name=\"detail-comp\">\n    <h1>DETAILS</h1>\n    <h1>{{details[0].strMeal}}</h1>\n\t<div id='img_pic'>\n\t\t<img src=\"{{details[0].strMealThumb}}\">\n\t</div>\n\t<h2>Description</h2>\n\t<p>{{details[0].strInstructions}}</p>\n\t<a href=\"{{details[0].strYoutube}}\">Click here..</a>\n\t<h2>Ingredients</h2>\n\t<ul>\n\t\t";details[0].forIn(function(value, key){ 
+> 4 | str +="\n\t\t\t";if(key == {{}}){
+    |                             ^
+  5 | str +=" \n\t\t\t\t{{log(\"user Name :\" , key)}}\n\t\t\t\t<li onclick=\"{{action('IngreRecipee',value)}}\">{{value}}</li>\n\t\t\t";}
+  6 | str +="\n\t  \t";})
+  7 | str +=" \n\t</ul>\n</template>";}
+
+
+1 error found.
+
+Callback to templateProcessing function initated
+total time taken 257.284s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+Error error: Parsing error: Unexpected token { at dist/components/javascript/detail-comp_lyte.js:4:29:
+  2 | function detail$comp(){ 
+  3 | 	var str="<template tag-name=\"detail-comp\">\n    <h1>DETAILS</h1>\n    <h1>{{details[0].strMeal}}</h1>\n\t<div id='img_pic'>\n\t\t<img src=\"{{details[0].strMealThumb}}\">\n\t</div>\n\t<h2>Description</h2>\n\t<p>{{details[0].strInstructions}}</p>\n\t<a href=\"{{details[0].strYoutube}}\">Click here..</a>\n\t<h2>Ingredients</h2>\n\t<ul>\n\t\t";details[0].forIn(function(value, key){ 
+> 4 | str +="\n\t\t\t";if(key == {{strIngredient1}}){
+    |                             ^
+  5 | str +=" \n\t\t\t\t{{log(\"user Name :\" , key)}}\n\t\t\t\t<li onclick=\"{{action('IngreRecipee',value)}}\">{{value}}</li>\n\t\t\t";}
+  6 | str +="\n\t  \t";})
+  7 | str +=" \n\t</ul>\n</template>";}
+
+
+1 error found.
+
+Callback to templateProcessing function initated
+total time taken 278.239s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+Error error: Parsing error: Unexpected token { at dist/components/javascript/detail-comp_lyte.js:4:29:
+  2 | function detail$comp(){ 
+  3 | 	var str="<template tag-name=\"detail-comp\">\n    <h1>DETAILS</h1>\n    <h1>{{details[0].strMeal}}</h1>\n\t<div id='img_pic'>\n\t\t<img src=\"{{details[0].strMealThumb}}\">\n\t</div>\n\t<h2>Description</h2>\n\t<p>{{details[0].strInstructions}}</p>\n\t<a href=\"{{details[0].strYoutube}}\">Click here..</a>\n\t<h2>Ingredients</h2>\n\t<ul>\n\t\t";details[0].forIn(function(value, key){ 
+> 4 | str +="\n\t\t\t";if(key == {{strIngredient1}}){
+    |                             ^
+  5 | str +=" \n\t\t\t\t{{log(\"user Name :\" , key)}}\n\t\t\t\t<li onclick=\"{{action('IngreRecipee',value)}}\">{{value}}</li>\n\t\t\t";}
+  6 | str +="\n\t  \t";})
+  7 | str +=" \n\t</ul>\n</template>";}
+
+
+1 error found.
+
+Callback to templateProcessing function initated
+total time taken 289.905s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.43 s
+Callback to templateProcessing function initated
+total time taken 301.066s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.423 s
+Callback to templateProcessing function initated
+total time taken 1168.963s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.435 s
+Callback to templateProcessing function initated
+total time taken 1333.13s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.379 s
+Callback to templateProcessing function initated
+total time taken 1365.078s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.004 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.379 s
+Callback to templateProcessing function initated
+total time taken 1413.386s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.435 s
+Callback to templateProcessing function initated
+total time taken 1878.894s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.389 s
+Callback to templateProcessing function initated
+total time taken 2295.1s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.437 s
+Callback to templateProcessing function initated
+total time taken 5361.983s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.001 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.61 s
+Callback to templateProcessing function initated
+total time taken 6275.18s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.476 s
+Callback to templateProcessing function initated
+total time taken 6293.22s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.567 s
+Callback to templateProcessing function initated
+total time taken 6297.223s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.542 s
+Callback to templateProcessing function initated
+total time taken 6305.781s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.555 s
+Callback to templateProcessing function initated
+total time taken 6398.298s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.502 s
+Callback to templateProcessing function initated
+total time taken 6420.354s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.56 s
+Callback to templateProcessing function initated
+total time taken 6426.665s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.626 s
+Callback to templateProcessing function initated
+total time taken 6434.332s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.461 s
+Callback to templateProcessing function initated
+total time taken 6895.841s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.465 s
+Callback to templateProcessing function initated
+total time taken 6896.884s
+Generating dist components...
+
+========== Components compiled ==========
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.428 s
+Callback to templateProcessing function initated
+total time taken 6897.915s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.465 s
+Callback to templateProcessing function initated
+total time taken 6965.186s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.432 s
+Callback to templateProcessing function initated
+total time taken 6972.776s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.441 s
+Callback to templateProcessing function initated
+total time taken 6981.11s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.439 s
+Callback to templateProcessing function initated
+total time taken 6986.886s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.483 s
+Callback to templateProcessing function initated
+total time taken 8205.274s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.461 s
+Callback to templateProcessing function initated
+total time taken 8214.337s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.383 s
+Callback to templateProcessing function initated
+total time taken 8219.994s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.001 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.43 s
+Callback to templateProcessing function initated
+total time taken 8381.149s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.003 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.424 s
+Callback to templateProcessing function initated
+total time taken 8531.958s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/javascript/welcome-comp.js calling buildComponents
+[Watch] Running componentCopy rule
+[Watch] Dist changes done
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/javascript/detail-comp.js calling buildComponents
+[Watch] Running componentCopy rule
+[Watch] Dist changes done
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/javascript/detail-comp.js calling buildComponents
+[Watch] Running componentCopy rule
+[Watch] Dist changes done
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.416 s
+Callback to templateProcessing function initated
+total time taken 8578.956s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.001 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.442 s
+Callback to templateProcessing function initated
+total time taken 8591.152s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.412 s
+Callback to templateProcessing function initated
+total time taken 8596.897s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/javascript/detail-comp.js calling buildComponents
+[Watch] Running componentCopy rule
+[Watch] Dist changes done
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.425 s
+Callback to templateProcessing function initated
+total time taken 8635.91s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.001 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.439 s
+Callback to templateProcessing function initated
+total time taken 8664.161s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.001 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.413 s
+Callback to templateProcessing function initated
+total time taken 8675.541s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.381 s
+Callback to templateProcessing function initated
+total time taken 8712.537s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/ingre-recipee-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/ingre-recipee-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.384 s
+Callback to templateProcessing function initated
+total time taken 8731.249s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/ingre-recipee-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/ingre-recipee-comp.html
+[Time] => find unclosedTags => 0.002 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.382 s
+Callback to templateProcessing function initated
+total time taken 8747.094s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/detail-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/detail-comp.html
+[Time] => find unclosedTags => 0.001 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.413 s
+Callback to templateProcessing function initated
+total time taken 8774.4s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/javascript/welcome-comp.js calling buildComponents
+[Watch] Running componentCopy rule
+[Watch] Dist changes done
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/javascript/ingre-recipee-comp.js calling buildComponents
+[Watch] Running componentCopy rule
+[Watch] Dist changes done
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/styles/detail-comp.css calling buildComponents
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+
+[Watch] => file changed components/templates/ingre-recipee-comp.html calling buildComponents
+Searching for syntax errors.....
+[UnclosedTags Success] =>components/templates/ingre-recipee-comp.html
+[Time] => find unclosedTags => 0.001 s
+Running compilerule ...
+[Time] => Convert Lyte syntax => 0.42 s
+Callback to templateProcessing function initated
+total time taken 8783.554s
+Generating dist components...
+
+========== Components compiled ==========
+Consolidated file created in the dist/app.js
+

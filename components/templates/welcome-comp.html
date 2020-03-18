@@ -1,0 +1,6 @@
+<template tag-name='welcome-comp'>
+	<h1>Recipee Name</h1>
+		<%recipeenames.forEach(function(item){%>
+			<h2 onclick="{{action('Recipedetails',item.strMeal)}}">{{item.strMeal}}</h2>
+		<%})%>
+</template>

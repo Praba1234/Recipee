@@ -1,0 +1,12 @@
+{
+  "name": "lyte-dom",
+  "_release": "af07e7214e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "af07e7214ed4c960a6654d68c3269995e9255d75"
+  },
+  "_source": "https://git.csez.zohocorpin.com/lyte.js/lyte-dom.git",
+  "_target": "*",
+  "_originalSource": "https://git.csez.zohocorpin.com/lyte.js/lyte-dom.git"
+}

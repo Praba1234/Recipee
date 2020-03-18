@@ -1,0 +1,1 @@
+{"ingre-recipee-comp":{"content":"<template tag-name=\"ingre-recipee-comp\"> <h1>Ingredents Recipes</h1> <template is=\"for\" items=\"{{ingrerecipee}}\" item=\"item\" index=\"index\" > <div class=\"size\"> <img class='photo' src=\"{{item.strMealThumb}}\" onclick=\"{{action('namedetails',item.strMeal)}}\"> <span>{{item.strMeal}}</span> </div> </template> </template>"}}

@@ -1,0 +1,13 @@
+.size{
+	/* border:1px solid black; */
+	width: 200px;
+	height: 200px;
+	margin: 5px 15px;
+	float: left;
+	text-align: center;
+}
+.photo{
+	width: 200px;
+	height: 150px;
+	background-size: cover;
+}
